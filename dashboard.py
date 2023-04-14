@@ -51,7 +51,8 @@ years = all_df["yr"].unique()
 with st.sidebar:
     # Menambahkan logo perusahaan
     st.image(
-        "https://upload.wikimedia.org/wikipedia/commons/9/99/Bike_Share_Toronto_logo.png")
+        "https://upload.wikimedia.org/wikipedia/commons/9/99/Bike_Share_Toronto_logo.png",
+        width=150)
 
     # Mengambil start_date & end_date dari date_input
     selected_year = st.selectbox(
